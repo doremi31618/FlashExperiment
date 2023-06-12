@@ -19442,7 +19442,7 @@ void main() {
     let counter = 0;
     let uiDataObj = {
       "frame rate": 40,
-      "color1": "#FF0000",
+      "color1": "#000000",
       "color2": "#ffffff"
     };
     let controller = gui.addFolder("setting");
