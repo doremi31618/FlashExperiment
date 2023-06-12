@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "dat.gui": "^0.7.9",
+    "esbuild": "^0.18.0",
+    "p5": "^1.6.0"
+  },
+  "name": "flashexperiment",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "esbuild ./public/javascript/index.js --bundle --outfile=bundle.js",
+    "watch": "esbuild  --watch ./public/javascript/index.js --bundle --outfile=bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
